@@ -52,6 +52,6 @@ You can also pass a function to `whenPresent` which accepts an argument that's a
 
 ```
 "jest": {
-  "setupFilesAfterEnv": ["<rootDir>/node_modules/@pachun/simple-expo-update/lib/tests/jest.setup.js"]
+  "setupFilesAfterEnv": ["<rootDir>/node_modules/@pachun/simple-expo-update/tests/jest.setup.ts"]
 }
 ```

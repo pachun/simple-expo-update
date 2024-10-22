@@ -1,6 +1,6 @@
 {
   "name": "@pachun/simple-expo-update",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "license": "MIT",
   "description": "Simpler expo-updates",
   "keywords": [
@@ -18,7 +18,8 @@
   "files": [
     "lib",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "tests/jest.setup.ts"
   ],
   "scripts": {
     "build": "tsc",

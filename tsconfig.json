@@ -11,5 +11,5 @@
     "allowSyntheticDefaultImports": true
   },
 
-  "include": ["src/**/*", "tests/jest.setup.ts"]
+  "include": ["src/**/*"]
 }
