@@ -1,5 +1,5 @@
 [![npm version](https://img.shields.io/npm/v/@pachun/simple-expo-update.svg)](https://www.npmjs.com/package/@pachun/simple-expo-update)
-[![cov](https://pachun.github.io/simple-expo-updates/badges/coverage.svg)](https://github.com/pachun/simple-expo-updates/actions)
+[![cov](https://pachun.github.io/simple-expo-update/badges/coverage.svg)](https://github.com/pachun/simple-expo-update/actions)
 
 # Simple Expo Update
 
