@@ -1,6 +1,6 @@
 {
   "name": "@pachun/simple-expo-update",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "description": "Simpler expo-updates",
   "keywords": [
@@ -43,6 +43,8 @@
     "react-native": "0.74.5",
     "typescript": "5.5.4"
   },
-  "dependencies": {},
-  "peerDependencies": {}
+  "peerDependencies": {
+    "expo-updates": "^0.25.27"
+  },
+  "dependencies": {}
 }
