@@ -1,11 +1,11 @@
-[![npm version](https://img.shields.io/npm/v/@pachun/simple-expo-updates.svg)](https://www.npmjs.com/package/@pachun/simple-expo-update)
+[![npm version](https://img.shields.io/npm/v/@pachun/simple-expo-update.svg)](https://www.npmjs.com/package/@pachun/simple-expo-update)
 [![cov](https://pachun.github.io/simple-expo-updates/badges/coverage.svg)](https://github.com/pachun/simple-expo-updates/actions)
 
 # Simple Expo Update
 
 ```
 yarn add @pachun/react-native-use-app-lifecycle
-yarn add @pachun/simple-expo-updates
+yarn add @pachun/simple-expo-update
 ```
 
 ```ts
