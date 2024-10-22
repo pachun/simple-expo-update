@@ -1,13 +1,6 @@
 import * as ExpoUpdates from "expo-updates"
 import simpleExpoUpdate from "../src/index"
 
-jest.mock("expo-updates", () => ({
-  ...jest.requireActual("expo-updates"),
-  checkForUpdateAsync: jest.fn(),
-  fetchUpdateAsync: jest.fn(),
-  reloadAsync: jest.fn(),
-}))
-
 let originalDev: boolean
 
 describe("simpleExpoUpdate({ whenPresent: ... })", () => {

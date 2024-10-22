@@ -47,3 +47,11 @@ const App = () => {
 `"applyUpdate"` applies the update immediately, restarting the app.
 
 You can also pass a function to `whenPresent` which accepts an argument that's an async function that you can run to apply the update on your own terms.
+
+## Jest
+
+```
+"jest": {
+  "setupFilesAfterEnv": ["<rootDir>/node_modules/@pachun/simple-expo-update/lib/tests/jest.setup.js"]
+}
+```
