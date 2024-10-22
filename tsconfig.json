@@ -5,7 +5,10 @@
     "noEmit": false,
     "outDir": "lib",
     "declaration": true,
-    "module": "CommonJS"
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true
   },
 
   "include": ["src/**/*"]
