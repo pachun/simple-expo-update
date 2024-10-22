@@ -1,11 +1,12 @@
 const minimumCoveragePercentage = 100
+
 module.exports = {
   preset: "jest-expo",
   transform: {
     "^.+\\.(js|ts|tsx)$": "babel-jest",
   },
   transformIgnorePatterns: [
-    "node_modules/(?!(expo-modules-core|expo|react-native|@react-native|@expo|@react-native-community)/)",
+    "node_modules/(?!(expo-updates|expo-modules-core|expo|react-native|@react-native|@expo|@react-native-community)/)",
   ],
   coverageProvider: "v8",
   collectCoverageFrom: ["./src/**", "!src/types/**"],
