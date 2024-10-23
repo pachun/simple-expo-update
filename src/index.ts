@@ -12,9 +12,11 @@ type WhenPresent =
   | ((applyUpdateAndRestart: () => Promise<void>) => void)
 
 const simpleExpoUpdate: SimpleExpoUpdate = async ({ whenPresent }) => {
-  const updateExists = (await ExpoUpdates.checkForUpdateAsync()).isAvailable
-  const updateDownloaded = (await ExpoUpdates.fetchUpdateAsync()).isNew
-  if (!__DEV__ && updateExists && updateDownloaded) {
+  if (
+    !__DEV__ &&
+    (await ExpoUpdates.checkForUpdateAsync()).isAvailable &&
+    (await ExpoUpdates.fetchUpdateAsync()).isNew
+  ) {
     if (whenPresent === "applyUpdate") {
       await ExpoUpdates.reloadAsync()
     } else {
